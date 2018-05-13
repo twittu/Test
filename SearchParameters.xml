@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="paramsuite">
+	<!-- <listeners> <listener class-name="com.seleniummavenproject.utilities.TestListener"></listener> 
+		</listeners> -->
+	<test name="Verify Capgemini Text">
+		<!-- <parameter name="selectlanguage" value="English"></parameter> -->
+		<parameter name="searchCapgemini" value="Capgemini"></parameter>
+		<classes>
+			<class name="com.seleniummavenproject.test.BaseTest">
+				<methods>
+					<include name="verifyCapgemini"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="Negavtive Test">
+		<parameter name="searchSeeIt" value="see it comes back and search works"></parameter>
+		<classes>
+			<class name="com.seleniummavenproject.test.BaseTest">
+				<methods>
+					<include name="verifyNegativeString"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Verify 4 Sections Rendered in Main Page">
+		<classes>
+			<class name="com.seleniummavenproject.test.BaseTest">
+				<methods>
+					<include name="VerifyMainPageRendered"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+</suite>

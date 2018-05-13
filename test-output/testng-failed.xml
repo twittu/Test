@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [paramsuite]">
+  <test thread-count="5" name="Negavtive Test(failed)">
+    <parameter name="searchSeeIt" value="see it comes back and search works"/>
+    <classes>
+      <class name="com.seleniummavenproject.test.BaseTest">
+        <methods>
+          <include name="lunchBrowserAndApplication"/>
+          <include name="closeBrowser"/>
+          <include name="verifyNegativeString" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.seleniummavenproject.test.BaseTest -->
+    </classes>
+  </test> <!-- Negavtive Test(failed) -->
+</suite> <!-- Failed suite [paramsuite] -->

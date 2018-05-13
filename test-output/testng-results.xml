@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="paramsuite" duration-ms="34262" started-at="2018-05-10T18:32:15Z" finished-at="2018-05-10T18:32:49Z">
+    <groups>
+    </groups>
+    <test name="Verify Capgemini Text" duration-ms="13463" started-at="2018-05-10T18:32:15Z" finished-at="2018-05-10T18:32:28Z">
+      <class name="com.seleniummavenproject.test.BaseTest">
+        <test-method status="PASS" signature="lunchBrowserAndApplication()[pri:0, instance:com.seleniummavenproject.test.BaseTest@11161c7]" name="lunchBrowserAndApplication" is-config="true" duration-ms="6249" started-at="2018-05-10T18:32:15Z" finished-at="2018-05-10T18:32:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowserAndApplication -->
+        <test-method status="PASS" signature="verifyCapgemini(java.lang.String)[pri:0, instance:com.seleniummavenproject.test.BaseTest@11161c7]" name="verifyCapgemini" duration-ms="4956" started-at="2018-05-10T18:32:21Z" finished-at="2018-05-10T18:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Capgemini]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCapgemini -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.seleniummavenproject.test.BaseTest@11161c7]" name="closeBrowser" is-config="true" duration-ms="2219" started-at="2018-05-10T18:32:26Z" finished-at="2018-05-10T18:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.seleniummavenproject.test.BaseTest -->
+    </test> <!-- Verify Capgemini Text -->
+    <test name="Negavtive Test" duration-ms="12850" started-at="2018-05-10T18:32:28Z" finished-at="2018-05-10T18:32:41Z">
+      <class name="com.seleniummavenproject.test.BaseTest">
+        <test-method status="PASS" signature="lunchBrowserAndApplication()[pri:0, instance:com.seleniummavenproject.test.BaseTest@9838eb]" name="lunchBrowserAndApplication" is-config="true" duration-ms="5407" started-at="2018-05-10T18:32:28Z" finished-at="2018-05-10T18:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowserAndApplication -->
+        <test-method status="PASS" signature="verifyNegativeString(java.lang.String)[pri:0, instance:com.seleniummavenproject.test.BaseTest@9838eb]" name="verifyNegativeString" duration-ms="5278" started-at="2018-05-10T18:32:34Z" finished-at="2018-05-10T18:32:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[see it comes back and search works]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeString -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.seleniummavenproject.test.BaseTest@9838eb]" name="closeBrowser" is-config="true" duration-ms="2163" started-at="2018-05-10T18:32:39Z" finished-at="2018-05-10T18:32:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.seleniummavenproject.test.BaseTest -->
+    </test> <!-- Negavtive Test -->
+    <test name="Verify 4 Sections Rendered in Main Page" duration-ms="7899" started-at="2018-05-10T18:32:41Z" finished-at="2018-05-10T18:32:49Z">
+      <class name="com.seleniummavenproject.test.BaseTest">
+        <test-method status="PASS" signature="lunchBrowserAndApplication()[pri:0, instance:com.seleniummavenproject.test.BaseTest@1ee9989]" name="lunchBrowserAndApplication" is-config="true" duration-ms="5032" started-at="2018-05-10T18:32:41Z" finished-at="2018-05-10T18:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowserAndApplication -->
+        <test-method status="PASS" signature="VerifyMainPageRendered()[pri:0, instance:com.seleniummavenproject.test.BaseTest@1ee9989]" name="VerifyMainPageRendered" duration-ms="2660" started-at="2018-05-10T18:32:46Z" finished-at="2018-05-10T18:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMainPageRendered -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.seleniummavenproject.test.BaseTest@1ee9989]" name="closeBrowser" is-config="true" duration-ms="204" started-at="2018-05-10T18:32:49Z" finished-at="2018-05-10T18:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.seleniummavenproject.test.BaseTest -->
+    </test> <!-- Verify 4 Sections Rendered in Main Page -->
+  </suite> <!-- paramsuite -->
+</testng-results>
