@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="paramsuite">
-	<!-- <listeners> <listener class-name="com.seleniummavenproject.utilities.TestListener"></listener> 
-		</listeners> -->
+	<listeners>
+		<listener class-name="com.seleniummavenproject.utilities.TestListener"></listener>
+	</listeners>
 	<test name="Verify Capgemini Text">
 		<!-- <parameter name="selectlanguage" value="English"></parameter> -->
 		<parameter name="searchCapgemini" value="Capgemini"></parameter>
@@ -25,7 +26,7 @@
 			</class>
 		</classes>
 	</test>
-	
+
 	<test name="Verify 4 Sections Rendered in Main Page">
 		<classes>
 			<class name="com.seleniummavenproject.test.BaseTest">
@@ -35,6 +36,6 @@
 			</class>
 		</classes>
 	</test>
-	
-	
+
+
 </suite>
